@@ -1,0 +1,19 @@
+uuid: a02aff5f-5bef-4833-86c5-3007454f0a35
+langcode: fr
+status: true
+dependencies:
+  module:
+    - link
+    - node
+id: node.field_access_button
+field_name: field_access_button
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,9 @@
+uuid: 5705e5a1-2bb5-4dfb-8ebb-6af331deb002
+langcode: fr
+status: true
+dependencies: {  }
+name: subject
+vid: subject
+description: ''
+hierarchy: 0
+weight: 0

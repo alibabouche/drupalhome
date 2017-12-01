@@ -1,0 +1,60 @@
+uuid: e8874b41-9a75-4279-9315-1e234c26e4fa
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.audition_video.body
+    - field.field.node.audition_video.field_attachments
+    - field.field.node.audition_video.field_title
+    - field.field.node.audition_video.field_video
+    - node.type.audition_video
+  module:
+    - datetime
+    - text
+    - user
+    - video_embed_field
+id: node.audition_video.default
+targetEntityType: node
+bundle: audition_video
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_attachments:
+    weight: 103
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_title:
+    weight: 102
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_video:
+    weight: 104
+    label: above
+    settings:
+      responsive: true
+      width: 854
+      height: 480
+      autoplay: true
+    third_party_settings: {  }
+    type: video_embed_field_video
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

@@ -1,0 +1,19 @@
+uuid: 554f5d6a-69e3-401c-9985-82f0ee507db2
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_opinion_summary
+field_name: field_opinion_summary
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

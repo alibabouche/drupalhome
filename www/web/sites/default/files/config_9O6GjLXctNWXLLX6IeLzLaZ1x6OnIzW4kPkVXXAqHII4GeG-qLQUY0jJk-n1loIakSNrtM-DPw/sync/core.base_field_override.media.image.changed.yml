@@ -1,0 +1,20 @@
+uuid: 33439f06-0a70-420f-8c20-55954a5c269b
+langcode: fr
+status: true
+dependencies:
+  config:
+    - media_entity.bundle.image
+_core:
+  default_config_hash: 9NsNlKKBFUZ-mrKQmJ0mpZwyVpJFK7152t_2QBI8Yoc
+id: media.image.changed
+field_name: changed
+entity_type: media
+bundle: image
+label: Changed
+description: 'The time that the media was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

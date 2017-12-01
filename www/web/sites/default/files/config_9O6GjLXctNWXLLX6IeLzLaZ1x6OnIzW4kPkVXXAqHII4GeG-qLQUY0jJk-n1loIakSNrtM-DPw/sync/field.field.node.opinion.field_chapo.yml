@@ -1,0 +1,21 @@
+uuid: 265939b8-71b1-452e-a0fa-22918ca81615
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_chapo
+    - node.type.opinion
+  module:
+    - text
+id: node.opinion.field_chapo
+field_name: field_chapo
+entity_type: node
+bundle: opinion
+label: chapo
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

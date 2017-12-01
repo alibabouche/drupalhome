@@ -1,0 +1,22 @@
+uuid: 9aef1034-7a74-48ff-b77e-55f396d986a0
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.opinion
+  module:
+    - text
+id: node.opinion.body
+field_name: body
+entity_type: node
+bundle: opinion
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

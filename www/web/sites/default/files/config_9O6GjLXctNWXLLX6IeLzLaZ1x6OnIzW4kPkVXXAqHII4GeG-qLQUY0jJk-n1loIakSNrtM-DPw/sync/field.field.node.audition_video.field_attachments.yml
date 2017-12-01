@@ -1,0 +1,21 @@
+uuid: 21ae1618-edc7-4316-8474-f1f7f91db9f9
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_attachments
+    - node.type.audition_video
+  module:
+    - datetime
+id: node.audition_video.field_attachments
+field_name: field_attachments
+entity_type: node
+bundle: audition_video
+label: attachments
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

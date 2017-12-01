@@ -1,0 +1,9 @@
+uuid: edf74ea3-eff2-40d8-8664-4d65a4c0cb8f
+langcode: fr
+status: true
+dependencies: {  }
+id: taxonomy_vocabulary_subject
+action: display_page
+allow_override: 1
+redirect: ''
+redirect_code: 301

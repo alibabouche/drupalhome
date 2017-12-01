@@ -1,0 +1,29 @@
+uuid: b25f1acc-c3a8-43dd-b09e-51f6ac432e02
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.audition_video.body
+    - node.type.audition_video
+  module:
+    - text
+    - user
+id: node.audition_video.teaser
+targetEntityType: node
+bundle: audition_video
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

@@ -1,0 +1,21 @@
+uuid: a796fb57-5bd0-4ed4-a139-4973bbbb7548
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_opinion_summary
+    - node.type.opinion
+  module:
+    - text
+id: node.opinion.field_opinion_summary
+field_name: field_opinion_summary
+entity_type: node
+bundle: opinion
+label: 'opinion summary'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

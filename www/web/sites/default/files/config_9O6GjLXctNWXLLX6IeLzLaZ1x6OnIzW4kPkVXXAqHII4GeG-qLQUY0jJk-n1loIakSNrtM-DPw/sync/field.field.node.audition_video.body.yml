@@ -1,0 +1,22 @@
+uuid: b36c120b-5100-4f9b-8bc1-39dde69d3430
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.audition_video
+  module:
+    - text
+id: node.audition_video.body
+field_name: body
+entity_type: node
+bundle: audition_video
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

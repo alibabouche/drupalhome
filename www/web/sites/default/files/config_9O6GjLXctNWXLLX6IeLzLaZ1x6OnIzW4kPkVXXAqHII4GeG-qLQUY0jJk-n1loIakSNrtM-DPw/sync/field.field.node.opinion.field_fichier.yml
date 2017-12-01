@@ -1,0 +1,27 @@
+uuid: bd7c81fe-8cf2-490c-b799-46579016e684
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fichier
+    - node.type.opinion
+  module:
+    - file
+id: node.opinion.field_fichier
+field_name: field_fichier
+entity_type: node
+bundle: opinion
+label: 'opinion text'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: pdf
+  max_filesize: ''
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

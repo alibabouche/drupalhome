@@ -1,0 +1,27 @@
+uuid: 1d2ea097-d6e7-4cd7-98d0-28a704bea9ff
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_file
+    - node.type.opinion
+  module:
+    - file
+id: node.opinion.field_file
+field_name: field_file
+entity_type: node
+bundle: opinion
+label: 'related documents'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: txt
+  max_filesize: ''
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

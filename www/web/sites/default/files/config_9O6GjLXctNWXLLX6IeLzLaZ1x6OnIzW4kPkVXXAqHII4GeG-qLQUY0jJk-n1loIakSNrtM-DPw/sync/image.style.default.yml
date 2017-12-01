@@ -1,0 +1,10 @@
+uuid: e567ca9b-bdcc-4b2f-ae86-f2cc557056a2
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: v-NSVJDDGJZa1cciJhStPLz2O1QMgK5GNQd4MIHXIEI
+name: default
+label: Default
+effects: {  }
+pipeline: ''

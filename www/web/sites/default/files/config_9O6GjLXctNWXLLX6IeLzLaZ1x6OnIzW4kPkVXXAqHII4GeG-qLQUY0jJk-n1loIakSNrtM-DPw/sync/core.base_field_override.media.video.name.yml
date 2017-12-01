@@ -1,0 +1,22 @@
+uuid: 2007d422-01be-470d-81f4-6596d1b11707
+langcode: fr
+status: true
+dependencies:
+  config:
+    - media_entity.bundle.video
+_core:
+  default_config_hash: Fdgnbb7IGcK_abHwY46j77LrDCrTpgv28nPhVadY_Ro
+id: media.video.name
+field_name: name
+entity_type: media
+bundle: video
+label: 'Media name'
+description: 'The name of this media.'
+required: true
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

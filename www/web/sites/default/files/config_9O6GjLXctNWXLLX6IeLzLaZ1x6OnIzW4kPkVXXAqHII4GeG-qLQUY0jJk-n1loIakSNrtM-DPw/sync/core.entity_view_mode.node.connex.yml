@@ -1,0 +1,10 @@
+uuid: bf7c2e2d-c5bb-4e3e-b874-33508859725f
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+id: node.connex
+label: connex
+targetEntityType: node
+cache: true

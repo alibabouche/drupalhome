@@ -1,0 +1,19 @@
+uuid: ac46452a-cc41-4165-8c29-a4c098c1a5ba
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_title
+    - node.type.opinion
+id: node.opinion.field_title
+field_name: field_title
+entity_type: node
+bundle: opinion
+label: title
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,23 @@
+uuid: f31f4489-4aae-48de-bd07-3083ef91e794
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_show_presentation_block
+    - node.type.page_d_accueil
+id: node.page_d_accueil.field_show_presentation_block
+field_name: field_show_presentation_block
+entity_type: node
+bundle: page_d_accueil
+label: 'show presentation block'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean
